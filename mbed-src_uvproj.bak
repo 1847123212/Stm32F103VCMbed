@@ -47,7 +47,7 @@
           <OutputName>mbed-src</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\build\</ListingPath>
@@ -4913,19 +4913,14 @@
               <FilePath>.\DeviceDriver\DHT21\Dht21.cpp</FilePath>
             </File>
             <File>
-              <FileName>ds18b20.cpp</FileName>
+              <FileName>GP2Y1010au.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\DeviceDriver\DS18B20\ds18b20.cpp</FilePath>
+              <FilePath>.\DeviceDriver\GP2Y1010au\GP2Y1010au.cpp</FilePath>
             </File>
             <File>
               <FileName>ESP8266_Usart.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\DeviceDriver\ESP8266\ESP8266_Usart.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>GP2Y1010au.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\DeviceDriver\GP2Y1010au\GP2Y1010au.cpp</FilePath>
             </File>
           </Files>
         </Group>

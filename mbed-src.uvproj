@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>mbed NUCLEO_F103RB</TargetName>
+      <TargetName>MbedStm32F103VC</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -350,7 +350,7 @@
               <MiscControls>--gnu --no_rtti </MiscControls>
               <Define>TARGET_FF_ARDUINO,  TARGET_NUCLEO_F103RB,  MBED_BUILD_TIMESTAMP=1448174142.25,  TARGET_FF_MORPHO,  TARGET_CORTEX_M,  TOOLCHAIN_ARM_MICRO,  TARGET_STM32F1,  __MBED__=1,  ARM_MATH_CM3,  TARGET_STM,  __CORTEX_M3,  TARGET_M3,  TOOLCHAIN_ARM,  TARGET_STM32F103RB,  __ASSERT_MSG,</Define>
               <Undefine></Undefine>
-              <IncludePath>.;api;hal;targets;targets/cmsis;targets/cmsis/TARGET_STM;targets/cmsis/TARGET_STM/TARGET_STM32F1;targets/cmsis/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB;targets/cmsis/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO;targets/hal;targets/hal/TARGET_STM;targets/hal/TARGET_STM/TARGET_STM32F1;targets/hal/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB;common;.\DeviceDriver\DHT21;.\DeviceDriver\28BYJ48;.\DeviceDriver\DS18B20;.\DeviceDriver\ESP8266;.\DeviceDriver\GP2Y1010au</IncludePath>
+              <IncludePath>.;api;hal;targets;targets/cmsis;targets/cmsis/TARGET_STM;targets/cmsis/TARGET_STM/TARGET_STM32F1;targets/cmsis/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB;targets/cmsis/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO;targets/hal;targets/hal/TARGET_STM;targets/hal/TARGET_STM/TARGET_STM32F1;targets/hal/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB;common;.\DeviceDriver\DHT21;.\DeviceDriver\28BYJ48;.\DeviceDriver\DS18B20;.\DeviceDriver\ESP8266;.\DeviceDriver\GP2Y1010au;.\fs\sd;.\fs\fat;.\fs\fat\ChaN</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -4906,6 +4906,61 @@
               <FileName>28BYJ48.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\DeviceDriver\28BYJ48\28BYJ48.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Dht21.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\DeviceDriver\DHT21\Dht21.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>GP2Y1010au.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\DeviceDriver\GP2Y1010au\GP2Y1010au.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ESP8266_Usart.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\DeviceDriver\ESP8266\ESP8266_Usart.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>FileSystem</GroupName>
+          <Files>
+            <File>
+              <FileName>SDFileSystem.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\sd\SDFileSystem.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>FATDirHandle.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\FATDirHandle.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>FATFileHandle.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\FATFileHandle.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>FATFileSystem.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\FATFileSystem.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ccsbcs.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\ChaN\ccsbcs.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>diskio.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\ChaN\diskio.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ff.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\fs\fat\ChaN\ff.cpp</FilePath>
             </File>
           </Files>
         </Group>
